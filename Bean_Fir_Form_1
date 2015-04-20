@@ -1,0 +1,88 @@
+
+public class Bean_Fir_Form_1 {
+
+    int firno;
+    String name;
+    int age;
+    String address, city, state, uidno;
+    int mobileno;
+
+    public Bean_Fir_Form_1(int firno, String name, int age, String address, String city, String state, String uidno, int mobileno) {
+        this.firno = firno;
+        this.name = name;
+        this.age = age;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.uidno = uidno;
+        this.mobileno = mobileno;
+    }
+
+    public Bean_Fir_Form_1() {
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getFirno() {
+        return firno;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public int getMobileno() {
+        return mobileno;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public String getUidno() {
+        return uidno;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setFirno(int firno) {
+        this.firno = firno;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setMobileno(int mobileno) {
+        this.mobileno = mobileno;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public void setUidno(String uidno) {
+        this.uidno = uidno;
+    }
+
+}
