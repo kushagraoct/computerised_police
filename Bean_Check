@@ -1,0 +1,31 @@
+
+public class Bean_Check {
+
+    int firno;
+    String firreport;
+
+    public String getfirreport() {
+        return firreport;
+    }
+
+    public int getFirno() {
+        return firno;
+    }
+
+    public void setfirreport(String firreport) {
+        this.firreport = firreport;
+    }
+
+    public void setFirno(int firno) {
+        this.firno = firno;
+    }
+
+    public Bean_Check() {
+    }
+
+    public Bean_Check(int firno, String firreport) {
+        this.firno = firno;
+        this.firreport = firreport;
+    }
+
+}
